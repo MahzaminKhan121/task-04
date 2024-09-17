@@ -1,0 +1,119 @@
+/* common section start */
+#header-sec{
+    background-image: url(../fonts/Readme.txt);
+}
+@font-face {
+    font-family: "AdorNoirrit";
+    src: url(../fonts/LiAbuJMAkkasUnicode.ttf);
+}
+*{
+    font-family: "AdorNoirrit";
+}
+/* common section end */
+
+/* header section start */
+#header-sec{
+    background-image: url(../images/background.jpg);
+}
+
+/* navbar section start */
+#navbar-sec{
+    /* position: sticky; */
+}
+#navbar-sec .navbar-brand{
+    color: white;
+    font-size: 45px;
+    /* font-family: normal; */
+}
+#navbar-sec .navbar-brand span{
+    color: red;
+    background-color: white;
+    padding: 0px 8px;
+}
+#navbar-sec .nav-item .nav-link{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 0px 25px;
+}
+/* navbar section end */
+
+/* hero section start */
+#hero-sec .card-body{
+    background-color: white;
+    display: block;
+    width: 65%;
+    border-radius: 20px;
+    box-shadow: 3px 0px 20px 0px rgb(80, 78, 78);
+}
+#hero-sec .card-body p{
+    color: rgb(109, 110, 112);
+    font-size: 20px;
+}
+#hero-sec .card-body h1{
+    color: rgb(64, 64, 65);
+    font-size: 60px;
+}
+#hero-sec .card-body h3{
+    color: rgb(109, 110, 112);
+    font-size: 22px;
+}
+#hero-sec .card{
+    border-radius: 20px;
+    background-color: #DE0D0F;
+}
+#hero-sec .card .card-content{
+    border-right: 1px solid rgb(221, 221, 221);
+}
+#hero-sec .card .card-content h5{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 300;
+}
+#hero-sec .card .card-content h2{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+/* hero section end */
+/* header section end */
+
+/* birthday section start */
+#birthday-sec{
+
+}
+#birthday-sec .birthdaybox{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 3px 0px 15px 0px rgb(137, 137, 137);
+}
+#birthday-sec .img-part{
+    padding: 20px;
+}
+#birthday-sec .img-part img{
+    width: 50%;
+    border: 10px solid #DE0D0F;
+    padding: 6px;
+    border-radius: 50%;
+}
+#birthday-sec .content-part h2{
+    color: rgb(0, 0, 0) ;
+    font-size: 30px;
+    font-weight: 300;
+}
+#birthday-sec .content-part h1{
+    color: #DE0D0F;
+    font-size: 40px;
+    font-weight: 400;
+}
+#birthday-sec .content-part p{
+    color: rgb(102, 102, 102);
+    font-size: 21px;
+    font-weight: 400;
+}
+#birthday-sec .content-part .fa-facebook{
+    color: #3B5998;
+    font-size: 40px;
+}
+/* birthday section end */
+a:visited{
+    color: red;
+}
